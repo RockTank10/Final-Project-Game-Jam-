@@ -1,0 +1,58 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/Score.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/Lives.gd" type="Script" id=2]
+[ext_resource path="res://Assets/Sounds/Tyhosisparrow.ogg" type="AudioStream" id=3]
+
+[node name="HUD" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 136.0
+margin_bottom = 32.0
+color = Color( 0.254902, 0.231373, 0.231373, 1 )
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+margin_left = 890.0
+margin_right = 1026.0
+margin_bottom = 32.0
+color = Color( 0.254902, 0.231373, 0.231373, 1 )
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+margin_left = 380.0
+margin_right = 660.0
+margin_bottom = 50.0
+color = Color( 0.254902, 0.231373, 0.231373, 1 )
+
+[node name="Controls" type="Label" parent="."]
+margin_left = 380.0
+margin_top = 10.0
+margin_right = 660.0
+margin_bottom = 50.0
+text = "Controls:
+WASD = Move"
+align = 1
+
+[node name="Score" type="Label" parent="."]
+margin_top = 10.0
+margin_right = 137.0
+margin_bottom = 30.0
+text = "Score ="
+align = 1
+script = ExtResource( 1 )
+
+[node name="Lives" type="Label" parent="."]
+margin_left = 890.0
+margin_top = 10.0
+margin_right = 1027.0
+margin_bottom = 30.0
+text = "Lives ="
+align = 1
+script = ExtResource( 2 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+position = Vector2( 559.607, 268.032 )
+scale = Vector2( 5, 5 )
+stream = ExtResource( 3 )
+volume_db = -9.087
+autoplay = true
+attenuation = 0.00929069

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/crow_caw.wav-04bf63636b4a5c0ba62583bea843225c.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/crow_caw.wav"
+dest_files=[ "res://.import/crow_caw.wav-04bf63636b4a5c0ba62583bea843225c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

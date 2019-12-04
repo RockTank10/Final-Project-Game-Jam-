@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Tyhosisparrow.ogg-8a48f6c8f05081fb06efead7eab475ac.oggstr"
+
+[deps]
+
+source_file="res://Assets/Sounds/Tyhosisparrow.ogg"
+dest_files=[ "res://.import/Tyhosisparrow.ogg-8a48f6c8f05081fb06efead7eab475ac.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
